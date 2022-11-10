@@ -2,7 +2,7 @@
 5 freecodecamp projects for data analysis certification
 
 ----------------------------------------
-MEAN
+MEAN, VAR, STD
 
 Create a function named calculate() in mean_var_std.py that uses Numpy to output the mean, variance, standard deviation, max, min, and sum of the rows, columns, and elements in a 3 x 3 matrix.
 
@@ -67,3 +67,17 @@ Clean the data. Filter out the following patient segments that represent incorre
 -weight is more than the 97.5th percentile
 
 Create a correlation matrix using the dataset. Plot the correlation matrix using seaborn's heatmap(). Mask the upper triangle. The chart should look like examples/Figure_2.png.
+
+
+---------------------------------------------------------------------
+TIME SERIES VISUALIZER
+
+For this project you will visualize time series data using a line chart, bar chart, and box plots. You will use Pandas, Matplotlib, and Seaborn to visualize a dataset containing the number of page views each day on the freeCodeCamp.org forum from 2016-05-09 to 2019-12-03. The data visualizations will help you understand the patterns in visits and identify yearly and monthly growth.
+
+
+----------------------------------------------------------------------
+SEA LEVEL PREDICTOR
+
+You will analyze a dataset of the global average sea level change since 1880. You will use the data to predict the sea level change through year 2050.
+
+The scatter plot of original data will contain a line of best fit for the given data and project the trend up to 2050. A second line of best fit will also be included to show the increased upward trend starting from 2000 and projecting to 2050 as well.
